@@ -31,3 +31,11 @@ p {
 
 }
 
+.header nav , a{
+    background-color: #5554DE ;
+    color: #fff !important;
+}
+
+.header nav , a:hover{
+    color: #1EE193 !important;
+}

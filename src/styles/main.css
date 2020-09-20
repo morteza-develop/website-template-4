@@ -74,8 +74,6 @@ p {
 .sitebtn:hover{
     color: #fff !important;
     background-color: #1EE193 !important;
-
-
 }
 
 /* animation */
@@ -100,6 +98,13 @@ p {
       transform: translateY(-10px);
     }
   }
+
+  .card-animation:hover {
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+}
 /* animation */
 
 .section2-title{
@@ -108,4 +113,25 @@ p {
 .section2-title h2{
     font-size: 2.5rem;
     color:#1EE193;
+}
+.img-card{
+    width: 80px;
+}
+
+.section2 a{
+    color: #1EE193 !important;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+@media(max-width: 990px){
+    .section1 {
+        margin: 0px;
+    }
 }

@@ -114,7 +114,7 @@ p {
     font-size: 2.5rem;
     color:#1EE193;
 }
-.sectiontitle h3{
+.sectiontitle h3 , h4{
     font-size: 1.5rem;
     color:#1EE193;
 }
@@ -151,6 +151,7 @@ p {
 
 @media(max-width: 990px){
     .section1 {
-        margin: 0px;
+        margin-top: 0px !important;
+        height: 1000px;
     }
 }

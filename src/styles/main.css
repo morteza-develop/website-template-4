@@ -167,5 +167,24 @@ p {
     .sectiontitle {
         padding: 0!important;
     }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section3 p{
+        padding: 0!important;
+    }
+    .section4 p{
+        margin-top: 60px;
+        padding: 0 !important;
+    }
+    .section4 img{
+        margin-top: 10px;
+        margin-bottom: 60px;
+        padding: 0 !important;
+    }
+    .section5 .card {
+        margin-bottom: 20px!important;
+    }
     
 }
